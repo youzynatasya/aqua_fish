@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:aqua_fish/login_screen.dart';
+import 'package:aqua_fish/screens/halaman_utama.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: HalamanUtama(),
     );
   }
 }
