@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:aqua_fish/login_screen.dart';
+import 'package:aqua_fish/screens/login_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
